@@ -7,7 +7,7 @@
 
 _Recebendo os dados do usuário._
 
-![recebendo_dados](screenshots/input_dados.jpg)
+![recebendo_dados](screenshots/Input_dados.jpg)
 
 _Mostrando os dados para o usuário._
 
