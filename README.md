@@ -16,6 +16,6 @@ _Mostrando os dados para o usuário._
 ![print_dados](screenshots/output_lembrete.jpg)
 
 
-## Licença
+## Author
 
-MIT © [Paulo Daniel](https://github.com/TrexPD)
+[Paulo Daniel](https://www.linkedin.com/in/paulodaniel-oficial)
