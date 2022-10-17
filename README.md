@@ -10,7 +10,7 @@
 
 ##### _Recebendo os dados do usuário._
 
-![recebendo_dados](screenshots/input_dados.jpg)
+![recebendo_dados](screenshots/Input_dados.jpg)
 
 ##### _Mostrando os dados para o usuário._
 
@@ -19,6 +19,7 @@
 ![print_dados](screenshots/output_lembrete.jpg)
 
 
+<<<<<<< HEAD
 <h2 align="center">
     <strong>🌟
         Favorite este repositório 
@@ -31,3 +32,8 @@
             Paulo Daniel (TrexPD)!
         </a>
 </p> 
+=======
+## Author
+
+[Paulo Daniel](https://www.linkedin.com/in/paulodaniel-oficial)
+>>>>>>> 1d65e832ce126b76d703b25021deb9e3c93ae8d1
