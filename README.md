@@ -8,7 +8,11 @@
 
 ### Screenshots:
 
+
 ##### _Recebendo os dados do usuário._
+
+![recebendo_dados](screenshots/Input_dados.jpg)
+
 
 ![recebendo_dados](screenshots/Input_dados.jpg)
 
@@ -19,7 +23,7 @@
 ![print_dados](screenshots/output_lembrete.jpg)
 
 
-<<<<<<< HEAD
+
 <h2 align="center">
     <strong>🌟
         Favorite este repositório 
@@ -27,13 +31,8 @@
 </h2>
 
 <p align="center">
-    Criado com ❤️ e python por
+    Criado com ❤️ e <strong>Python</strong> por
         <a href="https://github.com/TrexPD">
-            Paulo Daniel (TrexPD)!
+            <strong>Paulo Daniel (TrexPD)!</strong>
         </a>
 </p> 
-=======
-## Author
-
-[Paulo Daniel](https://www.linkedin.com/in/paulodaniel-oficial)
->>>>>>> 1d65e832ce126b76d703b25021deb9e3c93ae8d1
