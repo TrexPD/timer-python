@@ -66,7 +66,7 @@ def main() -> str:
                 break
             else:
                 print('\n\n[b]Lembrete:[/]')
-                print(f'[yellow]{lembrete.capitalize()}[/]')
+                print(f'[yellow]{lembrete.upper()}[/]')
                 break
 
 
