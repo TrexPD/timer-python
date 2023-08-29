@@ -61,12 +61,12 @@ def main() -> str:
             continue
 
         elif totminutos == 0 and contador == 0:
+            print('\n\n[b]Lembrete:[/]')
             if lembrete == '':
-                print('\n\n[yellow]A [b]contagem regresiva[/] chegou ao fim![/]')
+                print('\n[yellow]A [b]contagem regresiva[/] chegou ao fim![/]')
                 break
             else:
-                print('\n\n[b]Lembrete:[/]')
-                print(f'[yellow]{lembrete.upper()}[/]')
+                print(f'\n[yellow]{lembrete.upper()}[/]')
                 break
 
 
