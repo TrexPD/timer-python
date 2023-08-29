@@ -3,29 +3,33 @@ from rich import print
 from rich.console import Console
 from rich.table import Table
 from rich import box
+from re import findall
 
 
-# Função que ler apenas números inteiros!
-def leia_int(msg: str) -> int or str:
+def validador_horario_em_regex() -> (tuple[int, int, int] | None):
     while True:
         try:
             console = Console()
-            numero: int = int(console.input(msg).strip())
+            tempo_do_usuario: str = console.input("Digite o tempo no formato 'HH:MM:SS': ")
+            horario = findall("^\d{2}.\d{2}.\d{2}$", tempo_do_usuario)
+            if not horario:
+                print('[yellow]Hummm... parece que você não digitou um formato válido![/]')
+                continue
+
         except KeyboardInterrupt:
-            print('\n[red]O usuário abortou, preferiu não inserir um valor válido![/]')
+            print('[red]O usuário abortou, preferiu não inserir um valor válido![/]')
             break
         except:
-            print('\n[yellow]Hummm... parece que você não digitou um número inteiro válido![/]')
+            print('[yellow]Hummm... parece que você não digitou um formato válido![/]')
         else:
-            return numero
+            return int(horario[0][:2]), int(horario[0][3:5]), int(horario[0][6:])
 
 
 # Timer que funciona perfeitamente, colocando horas, minutos e segundos!
 def main() -> str:
     console = Console()
-    tothoras: int = leia_int('Quantas [green]horas[/] para o [b]Timer[/]: ')
-    totminutos: int = leia_int('Quantos [green]minutos[/] para o [b]Timer[/]: ')
-    segundos: int = leia_int('Quantos [green]segundos[/] para o [b]Timer[/]: ')
+    tothoras, totminutos, segundos = validador_horario_em_regex()
+
     lembrete: str = str(console.input('Digite um [yellow]lembrete[/] para quando o [b]Timer[/] chegar ao fim: ')).strip()
 
     print(Table('Contagem regresiva iniciada!', box=box.SIMPLE_HEAD))
