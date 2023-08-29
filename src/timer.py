@@ -30,7 +30,7 @@ def main() -> str:
     console = Console()
     tothoras, totminutos, segundos = validador_horario_em_regex()
 
-    lembrete: str = str(console.input('Digite um [yellow]lembrete[/] para quando o [b]Timer[/] chegar ao fim: ')).strip()
+    lembrete: str = str(console.input('Digite um [yellow]lembrete[/] para quando o [yellow]Timer[/] chegar ao fim: ')).strip()
 
     print(Table('Contagem regresiva iniciada!', box=box.SIMPLE_HEAD))
 
