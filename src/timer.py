@@ -4,9 +4,10 @@ from rich.console import Console
 from rich.table import Table
 from rich import box
 from re import findall
+from typing import Tuple, Optional
 
 
-def validador_horario_em_regex() -> (tuple[int, int, int] | None):
+def validador_horario_em_regex() -> Optional[Tuple[int, int, int]]:
     while True:
         try:
             console = Console()
@@ -69,5 +70,5 @@ def main() -> str:
                 print(f'\n[yellow]{lembrete.upper()}[/]')
                 break
 
-
-main()
+if __name__ == "__main__":
+    main()
